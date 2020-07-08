@@ -1,0 +1,30 @@
+{
+  "name": "tstaticstoringproxy",
+  "version": "0.0.2",
+  "bin": "./bin/index.js",
+  "description": "record a statics to directory for later reuse.",
+  "main": "index.js",
+  "author": "Tobias Nickel",
+  "license": "MIT",
+  "private": false,
+  "keywords": [
+    "proxy",
+    "static",
+    "store",
+    "cache",
+    "download"
+  ],
+  "homepage": "https://github.com/TobiasNickel/tstaticstoringproxy#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TobiasNickel/tstaticstoringproxy.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TobiasNickel/tstaticstoringproxy/issues"
+  },
+  "dependencies": {
+    "express": "*",
+    "node-fetch": "^2.6.0",
+    "optjs": "^3.2.2"
+  }
+}
